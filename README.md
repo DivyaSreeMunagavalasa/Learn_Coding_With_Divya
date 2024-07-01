@@ -1,2 +1,2 @@
 # Learn_Coding_With_Divya
-Hey Everyone! I'll share my coding learning journey here! Stay tuned!
+Hey Everyone! This repository contains the essential programming aspects covering Data Structures and Algorithms structured in a beginner friendly manner.
