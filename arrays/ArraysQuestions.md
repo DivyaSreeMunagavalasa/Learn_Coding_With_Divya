@@ -13,3 +13,9 @@ Problem Statement - 3: Check if an Array is Sorted
 Explanation: Given an array of size n, write a program to check if the given array is sorted in (ascending / Increasing / Non-decreasing) order or not. If the array is sorted then return True, Else return False.
 
 Note: Two consecutive equal values are considered to be sorted.
+
+Problem Statement - 4: Check if an Array is Sorted and Rotated
+
+Explanation : Given an array, return true if the array was originally sorted in non-decreasing order, then rotated some number of positions (including zero). Otherwise, return false.
+
+Note: There may be duplicates in the original array.
