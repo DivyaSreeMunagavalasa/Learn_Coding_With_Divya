@@ -8,14 +8,6 @@ package arrays;
 import java.util.Scanner;
 
 public class CheckRotatedSortedArray {
-    public static int[] getArray(int n){
-        Scanner s = new Scanner(System.in);
-        int [] arr = new int[n];
-        for(int i = 0; i < n; i++){
-            arr[i] = s.nextInt();
-        }
-        return arr;
-    }
     public static boolean checkSortedRotatedArray(int [] arr){
         int count = 0;
         int n = arr.length;
@@ -30,11 +22,11 @@ public class CheckRotatedSortedArray {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
-        int [] arr ;
-        arr = getArray(n);
+        // Use the CreateArray class to get the array
+        int [] arr = CreateArray.getArray(n);
         boolean isSortedRotatedArray = checkSortedRotatedArray(arr);
         if(isSortedRotatedArray){
-            System.out.println("The array is sorted and rotated");
+            System.out.println("The array is sorted and maybe rotated");
         }
         else{
             System.out.println("The array is not sorted and rotated");

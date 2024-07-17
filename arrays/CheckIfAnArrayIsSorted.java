@@ -7,14 +7,6 @@ Note: Two consecutive equal values are considered to be sorted.
 package arrays;
 import java.util.Scanner;
 public class CheckIfAnArrayIsSorted {
-    public static int[] getArray(int n){
-        Scanner s = new Scanner(System.in);
-        int [] arr = new int[n];
-        for(int i = 0 ; i < n ; i++){
-            arr[i] = s.nextInt();
-        }
-        return arr;
-    }
     public static boolean isArraySorted(int [] arr){
         for(int i = 1 ; i < arr.length ; i++){
             if(arr[i] >= arr[i-1]){
@@ -30,8 +22,8 @@ public class CheckIfAnArrayIsSorted {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
-        int []arr;
-        arr = getArray(n);
+        // Use the CreateArray class to get the array
+        int [] arr = CreateArray.getArray(n);
         boolean isSorted = isArraySorted(arr);
         if(isSorted){
             System.out.println("Array is sorted in ascending order!");
