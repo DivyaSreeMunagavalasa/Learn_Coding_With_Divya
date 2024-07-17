@@ -1,5 +1,7 @@
+/* Problem Statement:
+Given an array, we have to find the largest element in an array.
+ */
 package arrays;
-
 import java.util.Scanner;
 public class LargestElementInAnArray {
     public static int[] getArray(int n){
