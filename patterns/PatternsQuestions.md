@@ -1,5 +1,5 @@
 ```
-**Patterns Questions**
+**patterns Questions**
 
 Pattern-1:
 *****
