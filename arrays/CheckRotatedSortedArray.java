@@ -12,7 +12,7 @@ public class CheckRotatedSortedArray {
         int count = 0;
         int n = arr.length;
         for(int i = 0 ; i < n ; i++){
-            if(arr[i]>arr[(i+1) % n]){
+            if(arr[i] > arr[(i+1) % n]){
                 count++;
             }
         }
@@ -23,7 +23,7 @@ public class CheckRotatedSortedArray {
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
         // Use the CreateArray class to get the array
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         boolean isSortedRotatedArray = checkSortedRotatedArray(arr);
         if(isSortedRotatedArray){
             System.out.println("The array is sorted and maybe rotated");
