@@ -77,7 +77,7 @@ Example 1:
 
 Input: arr{1,1,2,2,2,3,3}
 
-Output: arr{1,2,3,_,_,_,_}
+Output: arr{1,2,3,_ ,_ ,_ ,_}
 
 Total number of unique elements are 3, i.e[1,2,3] and Therefore return 3 after assigning [1,2,3] in the beginning of the array.
 
