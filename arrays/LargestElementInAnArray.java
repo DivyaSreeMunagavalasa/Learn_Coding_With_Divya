@@ -18,7 +18,7 @@ public class LargestElementInAnArray {
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
         // Use the CreateArray class to get the array
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         int largest = getLargestElement(arr);
         System.out.println("The largest element in an array is: " + largest);
     }

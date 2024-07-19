@@ -23,7 +23,7 @@ public class CheckIfAnArrayIsSorted {
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
         // Use the CreateArray class to get the array
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         boolean isSorted = isArraySorted(arr);
         if(isSorted){
             System.out.println("Array is sorted in ascending order!");

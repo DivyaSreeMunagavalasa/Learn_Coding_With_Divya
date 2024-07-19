@@ -10,12 +10,6 @@ public class LeftRotateArrayByOnePlace {
         }
         arr[n-1] = temp;
     }
-    public static void printArray(int [] arr){
-        for(int i = 0 ; i < arr.length ; i++){
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number of elements in an array: ");
@@ -24,11 +18,11 @@ public class LeftRotateArrayByOnePlace {
             System.out.println("Enter positive value for the number of elements in array");
             return;
         }
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         System.out.println("The original array is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
         rotateArrayByOnePlaceInLeft(arr);
         System.out.println("The left rotated array by one place is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
     }
 }

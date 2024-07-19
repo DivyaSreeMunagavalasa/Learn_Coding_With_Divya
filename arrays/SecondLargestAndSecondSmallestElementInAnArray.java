@@ -38,7 +38,7 @@ public class SecondLargestAndSecondSmallestElementInAnArray {
         System.out.print("Enter the number of elements in an array: ");
         int n = s.nextInt();
         // Use the CreateArray class to get the array
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         int secondLargest = getSecondLargestElement(arr);
         int secondSmallest = getSecondSmallestElement(arr);
         System.out.println("The second largest element in an array is: " +secondLargest);

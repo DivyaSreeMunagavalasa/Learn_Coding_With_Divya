@@ -19,7 +19,7 @@ public class RemoveDuplicatesInPlaceFromSortedArray {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number of elements in the sorted array: ");
         int n = s.nextInt();
-        int [] arr = CreateArray.getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         int countOfUniqueElementsInArray = getCountOfUniqueElementsInArray(arr);
         System.out.println("The count of unique elements in an array is: " + countOfUniqueElementsInArray);
         System.out.print("The array without duplicates is: ");
