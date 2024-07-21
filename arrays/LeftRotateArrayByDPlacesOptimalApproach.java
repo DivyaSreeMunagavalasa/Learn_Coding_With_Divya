@@ -1,7 +1,6 @@
 package arrays;
 import java.util.Scanner;
 
-import static arrays.CreateAndPrintArray.*;
 
 public class LeftRotateArrayByDPlacesOptimalApproach {
     public static void rotateArrayLeftByDPlaces(int[] arr, int d){
@@ -26,11 +25,11 @@ public class LeftRotateArrayByDPlacesOptimalApproach {
         int d = s.nextInt();
         System.out.println("Enter the number of elements in an array: ");
         int n = s.nextInt();
-        int [] arr = getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         System.out.print("The original array is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
         rotateArrayLeftByDPlaces(arr,d);
         System.out.printf("The array after rotating left by %d places is: ", d);
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
     }
 }
