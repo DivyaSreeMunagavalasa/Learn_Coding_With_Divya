@@ -25,11 +25,11 @@ public class LeftRotateArrayByDPlacesBruteForceApproach {
         int d = s.nextInt();
         System.out.println("Enter the number of elements in an array : ");
         int n = s.nextInt();
-        int [] arr = getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         System.out.println("The original array is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
         rotateArrayLeftByDPlaces(arr,d);
         System.out.println("The left rotated array by one place is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
     }
 }

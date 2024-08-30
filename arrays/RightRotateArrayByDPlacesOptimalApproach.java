@@ -2,9 +2,6 @@ package arrays;
 
 import java.util.Scanner;
 
-import static arrays.CreateAndPrintArray.getArray;
-import static arrays.CreateAndPrintArray.printArray;
-
 public class RightRotateArrayByDPlacesOptimalApproach {
     public static void rotateArrayRightByDPlaces(int[] arr, int d){
         int n = arr.length;
@@ -28,11 +25,11 @@ public class RightRotateArrayByDPlacesOptimalApproach {
         int d = s.nextInt();
         System.out.println("Enter the number of elements in an array: ");
         int n = s.nextInt();
-        int [] arr = getArray(n);
+        int [] arr = CreateAndPrintArray.getArray(n);
         System.out.print("The original array is: ");
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
         rotateArrayRightByDPlaces(arr,d);
         System.out.printf("The array after rotating right by %d places is: ", d);
-        printArray(arr);
+        CreateAndPrintArray.printArray(arr);
     }
 }

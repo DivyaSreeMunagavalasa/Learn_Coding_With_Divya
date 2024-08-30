@@ -8,8 +8,8 @@ package arrays;
 import java.util.Scanner;
 public class CheckIfAnArrayIsSorted {
     public static boolean isArraySorted(int [] arr){
-        for(int i = 1 ; i < arr.length ; i++){
-            if(arr[i] >= arr[i-1]){
+        for(int j = 1 ; j < arr.length ; j++){
+            if(arr[j] >= arr[j-1]){
 
             }
             else{
